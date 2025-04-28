@@ -1,0 +1,11 @@
+apple-app-site-association{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "com.shavekevin.InkReads", // 替换为你的 Team ID 和 Bundle ID
+        "paths": ["/share/*", "/path2"] // 配置允许触发 Universal Link 的路径
+      }
+    ]
+  }
+}
