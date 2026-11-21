@@ -85,32 +85,38 @@
 
 <body><div class="policy-toolbar"><a href="index-en.html">← Back to InkReads</a><div class="language-switch" role="group" aria-label="Language"><a href="privacy-policy.html" lang="zh-CN" hreflang="zh-CN">中文</a><span aria-hidden="true">/</span><a href="privacy-policy-en.html" lang="en" hreflang="en" aria-current="page">English</a></div></div>
 <h1>InkReads Privacy Policy</h1>
-<p class="effective-date">Effective date: November 20, 2026</p>
-<p>Welcome to InkReads (the “App”), a <strong>local-first</strong> reading and note-taking app. All your content is stored on your device. The App has no account system or servers of its own and uses no third-party analytics or usage statistics services. This policy explains the data the App actually handles, how it handles it, and your control over it, in line with the current version’s behavior.</p>
-<h2>1. Data handled by the App (stored locally on your device)</h2>
-<h3>1.1 Content you create</h3>
+<p class="effective-date">Effective date: November 21, 2026</p>
+<p>Welcome to InkReads (the “App”), a <strong>local-first</strong> reading and note-taking app. Notes, books, and related content stay on your device. The App has no account system and no servers of its own. To support the App, it uses Google AdMob for <strong>app open ads</strong> and a <strong>Settings banner ad</strong>, so the device makes necessary network requests to show ads. This policy explains the data the App actually handles, how it handles it, and your control over it, in line with the current version’s behavior.</p>
+<h2>1. Data handled by the App</h2>
+<h3>1.1 Content you create (stored locally on your device)</h3>
 <ul>
 <li><strong>Notes:</strong> Text, images, tags, and associated book information you create.</li>
 <li><strong>Books:</strong> Book metadata you add (title, author, reading status, rating, and progress), covers, and imported local files (PDF, EPUB, TXT, HTML, and Markdown).</li>
-<li><strong>Topic notebooks:</strong> Topic notebooks you organize on this device, including local copies of excerpts and thoughts.</li>
+<li><strong>Topic notebooks:</strong> Topic notebooks you organize on device (source copies of excerpts and ideas).</li>
 <li><strong>Reading bookmarks:</strong> Reading positions you add in local books.</li>
 <li><strong>Sharing history:</strong> Records saved on your device after you generate quote cards.</li>
 <li><strong>Templates and settings:</strong> Card templates, fonts, themes, notifications, and other preferences.</li>
 </ul>
-<p>This data is stored locally using Apple’s Core Data framework and the App’s documents directory. It is shared within the App through an App Group directory, for example for reading progress. <strong>This data is not uploaded to any server.</strong></p>
-<h3>1.2 Information the App does not collect</h3>
+<p>This data is stored locally using Apple’s Core Data framework and the App’s documents directory. It is shared within the App through an App Group directory, for example for reading progress. <strong>The App does not upload this content to its own servers and does not provide it to the advertising SDK.</strong></p>
+<h3>1.2 Information the App does not actively collect</h3>
 <ul>
-<li>The App does <strong>not collect</strong> device identifiers, IP addresses, or location information.</li>
-<li>The App does <strong>not collect</strong> usage statistics such as frequency of use, time spent, or feature usage.</li>
-<li>The App contains <strong>no third-party analytics, advertising, or crash reporting SDKs.</strong></li>
-<li>The App has <strong>no servers of its own</strong> or technical channel for uploading your data.</li>
+<li>The App does <strong>not actively collect</strong> location information, and does not use note text, images, or book files for advertising or analytics.</li>
+<li>The App does <strong>not integrate</strong> third-party analytics or crash-reporting SDKs, and does <strong>not collect</strong> product-analytics metrics such as frequency of use, time spent, or feature event tracking.</li>
+<li>The App has <strong>no servers of its own</strong> and does not sync your notes or books to a developer-controlled remote service.</li>
 </ul>
-<h3>1.3 Diagnostic information collected by Apple’s system mechanisms</h3>
+<h3>1.3 Advertising and networking (third party)</h3>
+<ul>
+<li>The App uses <strong>Google AdMob / Google Mobile Ads SDK</strong> to show app open ads and a Settings banner ad. Ad requests use the network and may involve device and ad-related technical information processed by Google under its <a href="https://policies.google.com/privacy">Privacy Policy</a> (for example advertising-identifier related signals, IP address, and device or app information, as disclosed by Google at the time).</li>
+<li>The Settings banner can be closed in the App; after closing, it will not show again for the rest of that calendar day. The main reading and note-taking flows do not embed banner ads.</li>
+<li>In applicable regions, the App may show a consent form through Google User Messaging Platform (UMP). Regardless of the consent result, you can still use the App’s core reading and note features.</li>
+<li>The App currently does <strong>not actively present</strong> an App Tracking Transparency (ATT) tracking authorization prompt.</li>
+</ul>
+<h3>1.4 Diagnostic information collected by Apple’s system mechanisms</h3>
 <ul>
 <li><strong>Aggregate quality metrics:</strong> Apple collects aggregate metrics such as crashes and hangs through system mechanisms (MetricKit). The developer can only view aggregate information such as counts and versions in App Store Connect. These metrics do not include note text, images, book files, or backup content. The App does not forward them to any other server.</li>
-<li><strong>Issue reports:</strong> Only when you use the App’s feedback feature and choose to include diagnostics does the App generate a diagnostic summary you can preview line by line (app version, build version, system version, device category, and aggregate quality counts). You can review all content and cancel before sending. You choose how to send it through the system share sheet; the App does not send it automatically.</li>
+<li><strong>Issue reports:</strong> Only when you use the App’s feedback feature and choose to include diagnostics does the App generate a diagnostic summary you can preview line by line (app version, build version, system version, device category, and aggregate quality counts). You can review all content and cancel before sending. You choose how to send it through the system share sheet; the App does not send feedback automatically.</li>
 </ul>
-<h3>1.4 Permissions</h3>
+<h3>1.5 Permissions</h3>
 <p>The App requests these permissions only when you actively use the corresponding feature:</p>
 <ul>
 <li><strong>Camera:</strong> Take a photo for a book cover or card background.</li>
@@ -119,29 +125,31 @@
 </ul>
 <p>The App does not request other permissions such as location, microphone, contacts, or health access.</p>
 <h2>2. How data is used</h2>
-<p>Data is used only to provide features on your device: creating and editing notes, local reading and saving progress, organizing topic notebooks, displaying statistics, generating quote cards, and exporting and restoring backups. All processing takes place on your device, without behavioral profiling, tracking, or personalized advertising.</p>
+<p>Your notes, books, and local settings are used only to provide features on your device: creating and editing notes, local reading and saving progress, organizing topic notebooks, displaying statistics, generating quote cards, and exporting and restoring backups. The advertising SDK is used only to show ads and <strong>must not</strong> receive your note text, images, or book file content.</p>
 <h2>3. Storage and retention</h2>
 <ul>
-<li><strong>Storage locations:</strong> Local Core Data storage (in the App Group directory), the documents directory (note images and local book files), the Application Support directory (topic notebooks), and system preferences (lightweight settings and reading bookmarks).</li>
+<li><strong>Storage locations:</strong> Local Core Data storage (in the App Group directory), the documents directory (note images and local book files), the application support directory (topic notebooks), and system preferences (lightweight settings and reading bookmarks).</li>
 <li><strong>Backups:</strong> You can export your data as a JSON backup file and store it yourself. A complete backup includes books, notes, templates, images, bookmarks, and topic notebooks. Restoring a backup replaces all data. The App automatically creates a snapshot before restoring and restores the original data if the operation fails.</li>
-<li><strong>Retention:</strong> Data stays on your device until you delete the relevant content, use the App’s Clear Data feature, or uninstall the App. Exported backup files are not affected by uninstalling the App and remain under your control.</li>
+<li><strong>Retention:</strong> Local data stays on your device until you delete the relevant content, use the App’s Clear Data feature, or uninstall the App. Exported backup files are not affected by uninstalling the App and remain under your control. Data processing and retention on the advertising platform follow that platform’s own policies.</li>
 </ul>
 <h2>4. Sharing information</h2>
-<p>The App does not sell, rent, or share your data with third parties. The only exception is where required by law, regulation, or legal proceedings, and only to the extent necessary.</p>
+<p>The App does not sell your notes or book content. Except where required by law, regulation, or legal proceedings, the App’s only advertising-related technical interaction is with Google AdMob; related processing follows Google’s policies. The App does not share note text, images, or book files with the advertising platform.</p>
 <h2>5. Your rights</h2>
 <ul>
 <li><strong>View and edit:</strong> View, edit, and delete your notes, books, bookmarks, and topic notebooks in the App at any time.</li>
 <li><strong>Export:</strong> Create a complete backup through Settings → Data Management → Export Data.</li>
 <li><strong>Delete:</strong> Delete individual items or use Clear Data to remove all local data at once.</li>
-<li><strong>Account deletion:</strong> The App has no account system, so no account deletion is needed. Uninstalling the App deletes its data from your device.</li>
+<li><strong>Account deletion:</strong> The App has no account system, so no account deletion is needed. Uninstalling the App deletes its local data from your device.</li>
+<li><strong>Ad consent and banner dismissal:</strong> In applicable regions, you can manage ad-related consent preferences through the UMP flow. The Settings banner can be closed in the App for the rest of that calendar day.</li>
 </ul>
 <h2>6. Children’s privacy</h2>
-<p>The App is not marketed to children under 13 and does not knowingly collect children’s personal information. The App has no technical capability to collect any user information. Parents with concerns may clear the data or uninstall the App at any time.</p>
+<p>The App is not marketed to children under 13 and does not knowingly collect children’s personal information. Parents with concerns may clear the data or uninstall the App at any time.</p>
 <h2>7. Policy updates</h2>
-<p>If the App’s behavior changes, especially if any data collection, uploading, or third-party sharing is added, we will update this policy and the privacy manifest (PrivacyInfo.xcprivacy) before release and state the effective date. Please review this policy periodically.</p>
+<p>If the App’s behavior changes, especially if any data collection, uploading, advertising format, or third-party sharing is added, we will update this policy and the privacy manifest (PrivacyInfo.xcprivacy) before release and state the effective date. Please review this policy periodically.</p>
 <h2>8. Contact us</h2>
 <p>If you have questions about this policy or the App’s handling of data, please contact:</p>
 <ul><li>Email: <a href="mailto:inkreads@163.com">inkreads@163.com</a></li></ul>
 <p>We will respond within 30 days of receiving your request.</p>
-<p class="footer">Thank you for reading this policy. InkReads’ privacy commitment is simple: <strong>Your data belongs to you and stays on your device.</strong></p>
-</body></html>
+<p class="footer">Thank you for reading this policy. InkReads’ core commitment is: <strong>Your notes and books stay on your device and are not used for advertising.</strong></p>
+</body>
+</html>
