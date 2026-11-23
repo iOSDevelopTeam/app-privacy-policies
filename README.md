@@ -13,3 +13,10 @@ iOS 应用的静态页面与隐私政策，由 GitHub Pages 从 `main` 分支根
 - Privacy Policy (English)：https://justdoios.top/InkReads/privacy-policy-en.html
 - App Store：https://apps.apple.com/cn/app/id6743938509
 
+
+## Hanlo
+
+目录：`hanlo/`
+
+- Privacy Policy：https://justdoios.top/hanlo/privacy
+- Privacy Policy (file)：https://justdoios.top/hanlo/privacy.html
