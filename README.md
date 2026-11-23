@@ -18,4 +18,4 @@ iOS 应用的静态页面与隐私政策，由 GitHub Pages 从 `main` 分支根
 
 目录：`hanlo/`
 
-- Privacy Policy：https://justdoios.top/hanlo/privacy
+- Privacy Policy：https://justdoios.top/hanlo/privacy.html
