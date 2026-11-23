@@ -1,12 +1,12 @@
 /**
  * Hanlo marketing site — audio preview, subtitles, units, motion.
- * CTA placeholder: replace APP_STORE_URL when the listing is live.
+ * ASC app id: 6837873922
  */
 (function () {
   "use strict";
 
-  /** @type {string|null} Set to App Store URL when available; null = Coming Soon */
-  var APP_STORE_URL = null;
+  /** @type {string|null} null = Coming Soon mailto fallback */
+  var APP_STORE_URL = "https://apps.apple.com/app/id6837873922";
 
   var CONTACT_MAIL = "mailto:inkreads@163.com?subject=Hanlo%20iOS%20release%20reminder";
 
